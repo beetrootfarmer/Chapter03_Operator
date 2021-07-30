@@ -14,10 +14,10 @@ public class ArithmeticOperatorExample {
 		int result3 = v1 * v2;
 		System.out.printf("result3 = %d\n", result3);
 		
-		int result4 = v1 / v2; //³ª¸ÓÁö ¾øÀÌ ¸òÀÌ ÀúÀåµÊ
+		int result4 = v1 / v2; //ë‚˜ë¨¸ì§€ ì—†ì´ ëª«ì´ ì €ì¥ë¨
 		System.out.printf("result4 = %d\n", result4);
 		
-		int result5 = v1 % v2; //¸ò ¾øÀÌ ³ª¸ÓÁö°¡ ÀúÀåµÊ
+		int result5 = v1 % v2; //ëª« ì—†ì´ ë‚˜ë¨¸ì§€ê°€ ì €ì¥ë¨
 		System.out.printf("result5 = %d\n", result5);
 		
 		double result6 = (double) v1 / v2;

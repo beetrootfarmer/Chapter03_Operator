@@ -10,7 +10,7 @@ public class OperatorExpression {
 		System.out.println("result2= " + result2);
 		
 		byte b =100;
-		//byte result3 = -b; byteÅ¸ÀÔÀ¸·Î ºÎÈ£¿¬»êÀ» ÇÏ¸é intÅ¸ÀÔÀ¸·Î ¹Ù²î¹Ç·Î ¿¡·¯¹ß»ı
+		//byte result3 = -b; byteíƒ€ì…ìœ¼ë¡œ ë¶€í˜¸ì—°ì‚°ì„ í•˜ë©´ intíƒ€ì…ìœ¼ë¡œ ë°”ë€Œë¯€ë¡œ ì—ëŸ¬ë°œìƒ
 		int result3 = -b;
 		System.out.println("result3= " + result3);
 		

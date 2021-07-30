@@ -3,16 +3,16 @@ package ch03_1_operator_expression;
 public class LogicalOperatorExample {
 	public static void main(String[] args) {
 		
-		//»ç¿ëÀÚ°¡ ÀÔ·ÂÇÑ ¹®ÀÚ¸¦ ¸ÂÃâ ¼ö ÀÖ´Ù
-		//»ç¿ëÀÚ·ÎºÎÅÍ ¹®ÀÚ ÇÏ³ª¸¦ ÀÔ·Â¹Ş°í ¸ÂÃß´Â ÄÚµå ¸¸µé¾îº¸±â
+		//ì‚¬ìš©ìê°€ ì…ë ¥í•œ ë¬¸ìë¥¼ ë§ì¶œ ìˆ˜ ìˆë‹¤
+		//ì‚¬ìš©ìë¡œë¶€í„° ë¬¸ì í•˜ë‚˜ë¥¼ ì…ë ¥ë°›ê³  ë§ì¶”ëŠ” ì½”ë“œ ë§Œë“¤ì–´ë³´ê¸°
 		
 		int charCode ='A';
 		
 		if( (charCode>=65) & (charCode<=90)) {
-			System.out.println("´ë¹®ÀÚ±º¿ä");
+			System.out.println("ëŒ€ë¬¸ìêµ°ìš”");
 		}
 		if ((charCode>=97) && (charCode<=122)) {
-		System.out.println("¼Ò¹®ÀÚ±º¿ä");
+		System.out.println("ì†Œë¬¸ìêµ°ìš”");
 		
 		if ( !(charCode<48) && !(charCode>57)) {
 			{
@@ -20,11 +20,11 @@ public class LogicalOperatorExample {
 		int value =6;
 		
 		if ( (value%2==0) | (value%3 == 0) ) {
-			System.out.println("2¶Ç´Â 3ÀÇ ¹è¼ö±º¿ä");
+			System.out.println("2ë˜ëŠ” 3ì˜ ë°°ìˆ˜êµ°ìš”");
 		
 		
 		if  ( (value%2==0) || (value%3 == 0) ) {
-			System.out.println("2¶Ç´Â 3ÀÇ ¹è¼ö±º¿ä");
+			System.out.println("2ë˜ëŠ” 3ì˜ ë°°ìˆ˜êµ°ìš”");
 		}
 		
 		

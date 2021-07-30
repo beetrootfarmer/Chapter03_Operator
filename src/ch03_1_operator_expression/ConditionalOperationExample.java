@@ -5,8 +5,8 @@ public class ConditionalOperationExample {
 		
 		int score = 85;
 		char grade = (score > 90) ? 'A' : ( (score > 80) ? 'B' : 'C');
-		System.out.println(score+ "Á¡Àº" + grade + "µî±ŞÀÔ´Ï´Ù");
-		System.out.printf("%dÁ¡Àº %cµî±ŞÀÔ´Ï´Ù. \n", score, grade);
+		System.out.println(score+ "ì ì€" + grade + "ë“±ê¸‰ì…ë‹ˆë‹¤");
+		System.out.printf("%dì ì€ %cë“±ê¸‰ì…ë‹ˆë‹¤. \n", score, grade);
 	}
 
 }

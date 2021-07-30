@@ -9,9 +9,9 @@ public class CompareOperatorExample2 {
 		
 		double v4 =  0.1;
 		float v5 = 0.1f;
-		System.out.println(v4 == v5); //floatÇü°ú doubleÇüÀÇ Á¤¹Ğµµ Â÷ÀÌ·Î °°Àº °ªÀÌ ¾Æ´Ô
-		System.out.println((float)v4 == v5); //ÇØ°á¹æ¹ı1) µÑ´Ù floatÇüÀ¸·Î ¸¸µé¾îÁØ´Ù
-		System.out.println((long)v4 == (long)v5); //ÇØ°á¹æ¹ı2) µÑ´Ù Á¤¼ö·Î ¸¸µé¾îÁØ´Ù
+		System.out.println(v4 == v5); //floatí˜•ê³¼ doubleí˜•ì˜ ì •ë°€ë„ ì°¨ì´ë¡œ ê°™ì€ ê°’ì´ ì•„ë‹˜
+		System.out.println((float)v4 == v5); //í•´ê²°ë°©ë²•1) ë‘˜ë‹¤ floatí˜•ìœ¼ë¡œ ë§Œë“¤ì–´ì¤€ë‹¤
+		System.out.println((long)v4 == (long)v5); //í•´ê²°ë°©ë²•2) ë‘˜ë‹¤ ì •ìˆ˜ë¡œ ë§Œë“¤ì–´ì¤€ë‹¤
 	
 //		_____________________________________________
 		System.out.println("___________________________________");
@@ -20,7 +20,7 @@ public class CompareOperatorExample2 {
 		
 		int count = 10;
 		while(count != 0) {
-			Thread.sleep(500); //500millis : 0.5ÃÊ
+			Thread.sleep(500); //500millis : 0.5ì´ˆ
 			System.out.println(count--);
 		}
 		System.out.println("fire!!!");

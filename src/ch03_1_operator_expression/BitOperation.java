@@ -5,7 +5,7 @@ public class BitOperation {
 	public static void main(String[] args) {
 		
 		/************************************
-		 * ºñÆ®¿¬»êÀÚ(|, &, ^, ~, <<, >>)
+		 * ë¹„íŠ¸ì—°ì‚°ì(|, &, ^, ~, <<, >>)
 		 *          or    and    xor
 		 * x  y   x | y  x & y  x ^ y
 		 * **********************************
@@ -27,13 +27,13 @@ public class BitOperation {
 		
 		System.out.println(Integer.toBinaryString(a));
 		System.out.println(Integer.toBinaryString(b));
-//ºñÆ®¸¦ &¿¬»ê 1001 / (OR)||¿¬»ê 1011 		
-		System.out.println("10Áø¼ö: " + (a&b));
-		System.out.println("10Áø¼ö: " + (a|b));
+//ë¹„íŠ¸ë¥¼ &ì—°ì‚° 1001 / (OR)||ì—°ì‚° 1011 		
+		System.out.println("10ì§„ìˆ˜: " + (a&b));
+		System.out.println("10ì§„ìˆ˜: " + (a|b));
 		
 		System.out.println("3<<2: " + (3<<2));
-		// 0011(3)À» ¿ŞÂÊÀ¸·Î µÎÄ­ ¿Å°Ü¶ó => 1100
-		// 1ºñÆ®¸¦ ¿ŞÂÊÀ¸·Î ¿Å±â¸é 2¹è °öÇÏ´Â °Í
+		// 0011(3)ì„ ì™¼ìª½ìœ¼ë¡œ ë‘ì¹¸ ì˜®ê²¨ë¼ => 1100
+		// 1ë¹„íŠ¸ë¥¼ ì™¼ìª½ìœ¼ë¡œ ì˜®ê¸°ë©´ 2ë°° ê³±í•˜ëŠ” ê²ƒ
 		System.out.println("11<<2: " + (11<<2));
 		System.out.println("128>>5 " + (128>>5));
 		System.out.println("11>>1: " + (11>>1));
